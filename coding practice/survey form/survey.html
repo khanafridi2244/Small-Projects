@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesur.css">
+</head>
+<body>
+    <div>
+
+        <h1>Feedback Survey Form</h1>
+        <form action="">
+
+            <!-- <lable for="name">Name:</lable>
+            <input id="name" name="name" type="text" required> -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+
+            <br>
+            <br>
+
+            <!-- <lable for="email">Email:</lable>
+            <input type="email" id="email" name="email" required> -->
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <!-- <lable for="age">Age:</lable>
+            <input id="age" type="text"> -->
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age" min="10" max="40" required>
+
+            <br><br>
+            
+            <label for="feedback-type">Type of Feedback:</label><br>
+            <select name="feedback-type" id="feedback-type">
+                <option value="positive">positive</option>
+                <option value="negative">Negative</option>
+                <option value="suggestion">Suggestion</option>
+            </select>
+
+            <p>Services Used:</p>
+            <ul>
+                <input type="checkbox" name="service1" id="service1">
+                <label for="service1">Service 1</label><br>
+                <input type="checkbox" name="service2" id="service2">
+                <label for="service2">Service 2</label><br>
+                <input type="checkbox" name="service3" id="service3">
+                <label for="service3">Service 3</label>
+            </ul>
+            <!-- <fieldset>
+                <legend>Services Used:</legend>
+                <input type="checkbox" id="service1" name="services" value="service1">
+                <label for="service1">Service 1</label><br>
+                <input type="checkbox" id="service2" name="services" value="service2">
+                <label for="service2">Service 2</label><br>
+                <input type="checkbox" id="service3" name="services" value="service3">
+                <label for="service3">Service 3</label>
+            </fieldset> -->
+
+            <label for="explanation">Additional Comments:</label><br>
+            <textarea name="explanation" id="explanation" rows="4"></textarea>          
+            
+            <br><br>
+
+           <button type="submit">Submit Feedback</button>
+
+        </form>
+
+    </div>
+</body>
+</html>

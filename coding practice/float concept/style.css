@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+.main {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 40px;
+}
+img {
+    width: 50%;
+    width: 400px;
+    height: 500px ;
+    float: left;
+}
+
+.text {
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* box-shadow: 4px 4px 4px black; */
+}

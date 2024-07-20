@@ -1,0 +1,33 @@
+/* table , td , th{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0d972;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(69, 29, 231);
+    text-align: center;
+    padding: 10px;
+    color: rgb(244, 233, 233);
+}
+#main, #Ingredients, #Instructions {
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(32, 32, 224);
+    text-align: center;
+    padding: 10px;
+    color: rgb(249, 245, 245);
+}
+#Instructions h1 , #Ingredients h1 {
+    color: red;
+}
